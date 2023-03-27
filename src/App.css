@@ -1,0 +1,29 @@
+body{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  background-color: white;
+}
+.main-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:60vh;
+}
+.form{
+  padding: 20px 40px;
+  width: 400px;
+  border-radius:8px;
+  box-shadow: 0 10px 25px rgb(92, 99,105,.2);
+  background-color: white;
+}
+.container{
+  position: relative;
+  height:45px;
+  width:90%;
+  margin-bottom: 17px;
+}
+.text-danger{
+  color:red;
+  position: relative;
+}
